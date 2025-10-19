@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario III</title>
+</head>
+<body>
+    <h1 style="font-weight: normal;">FORMULARIO</h1>
+    <form action="mailto:dirección de correo" method="post">
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="aficiones">Aficiones</label><br>
+        <input type="checkbox" id=deporte name="aficiones" value="Deporte">
+        <label for="deporte">Deporte</label><br>
+
+        <input type="checkbox" id="cine" name="aficiones" value="Cine">
+        <label for="cine">Cine</label><br>
+
+        <input type="checkbox" id="teatro" name="aficiones" value="Teatro">
+        <label for="teatro">Teatro</label><br><br>
+    
+        <label for="provincia">Provincia:</label>
+        <select id="provincia" name="provincia">
+            <option value="seleccione">Seleccione</option>
+            <option value="Álava">Álava</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Sevilla">Sevilla</option>
+        </select>
+
+        <button type="submit" value="Enviar">Enviar</button>
+        <button type="reset" value="Borrar">Borrar</button>
+    </form>
+
+</body>
+</html>
