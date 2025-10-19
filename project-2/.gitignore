@@ -1,0 +1,22 @@
+# Archivos y carpetas del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales del editor
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+*.log
+*.tmp
+
+# Archivos de respaldo
+*.bak
+*.swp
+
+# Node (por si usas librerías más adelante)
+node_modules/
+
+# Archivos de despliegue
+dist/
+build/
