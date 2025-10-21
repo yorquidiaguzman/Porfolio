@@ -8,15 +8,15 @@ public class Tarea {
     }
 
     public void completar () {
-        this.completada = true
+        this.completada = true;
     }
 
     public boolean estaCompletada() {
-        return Completada;
+        return completada;
     } 
 
     @Override
-    public String to String () {
-        return (Completada? "[X]" : "[]") + descripcion;
+    public String toString () {
+        return (Completada ? "[X]" : " [ ] ") + descripcion;
     }
 }
