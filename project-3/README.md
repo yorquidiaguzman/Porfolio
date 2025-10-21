@@ -16,4 +16,5 @@ Permite añadir, listar y marcar tareas como completadas, con persistencia en ar
 4. Al reiniciar, las tareas se mantienen guardadas en tareas.txt
 
 ## Captura
-![captura del programa](ruta/captura.png)
+![Imagen del gestor de tareas](images/gestor-tareas.png)
+![Imagen del txt generado](images/archivo-txt-del-gestor-de-tareas.png)

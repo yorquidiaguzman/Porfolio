@@ -32,7 +32,7 @@ public class Main {
                     gestor.completarTarea(num-1);
                     break;
                 case 0:
-                    System.out.println("👋 Adiós...");
+                    System.out.println("Adiós...");
                     break;
                 default:
                     System.out.println("opción no válida.");        

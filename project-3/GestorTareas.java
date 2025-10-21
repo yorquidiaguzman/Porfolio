@@ -27,10 +27,10 @@ public class GestorTareas {
     public void completarTarea (int indice) {
         if (indice >= 0 && indice < tareas.size()) {
             tareas.get(indice).completar();
-            System.out.println("✅ Tarea Completada: " + tareas.get(indice).getDescripcion());
+            System.out.println("¡BIEN HECHO!, HAS COMPLETADO: " + tareas.get(indice).getDescripcion());
             guardarTareas();
         }else{
-            System.out.println("❌ Indice inválido.");
+            System.out.println("Indice inválido.");
         }
     }
 

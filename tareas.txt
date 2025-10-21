@@ -1,0 +1,4 @@
+Editar tarea;true
+Editar README;true
+Editar tarea;true
+Editar Readme de gestor;false

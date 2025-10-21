@@ -1,6 +1,6 @@
 public class Tarea {
     private String descripcion;
-    private boolean completado;
+    private boolean completada;
 
     public Tarea (String descripcion){
         this.descripcion = descripcion;
@@ -15,8 +15,13 @@ public class Tarea {
         return completada;
     } 
 
+      public String getDescripcion() {
+        return descripcion;
+    }
+
+
     @Override
     public String toString () {
-        return (Completada ? "[X]" : " [ ] ") + descripcion;
+        return (completada ? "[X]" : " [ ] ") + descripcion;
     }
 }

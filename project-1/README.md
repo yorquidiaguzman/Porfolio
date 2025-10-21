@@ -1,6 +1,6 @@
 # Formulario HTML
 
-Este proyecto contiene un formulario HTML básico con campos de correo, aficiones y provincia.
+Este proyecto contiene un formulario HTML básico con campos de correo, aficiones y provincia. Este formulario forma parte de las tareas iniciales de mi formación.
 
 ## Cómo ejecutar
 1. Abrir `formulario.html` en un navegador.
